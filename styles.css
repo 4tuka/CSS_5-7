@@ -8,7 +8,6 @@
 body {
     color: #FFF;
     background: #0B0B0E;
-    padding: 0px 200px;
 
 }
 
@@ -27,7 +26,7 @@ body {
 
 .main_sec_div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 95px;
 }
 
@@ -177,6 +176,9 @@ main {
 .aa {
     display: flex;
     gap: 24px;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: center;
 }
 
 .compute {
@@ -261,9 +263,152 @@ main {
 .mml {
     display: flex;
     max-width: 508px;
+
 }
 
 .main_div_5 {
     display: flex;
     gap: 24px;
+    margin-top: 24px;
 }
+
+.bad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.well {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.still {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    background: #191919;
+    max-width: 1040px;
+    width: 100%;
+    padding: 64px;
+    margin-left: 435px;
+
+}
+
+.vv {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+
+.place {
+    margin-top: 32px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.input_text {
+    color: #717680;
+    font-size: 16px;
+    display: flex;
+    padding: var(--spacing-lg, 12px) 14px;
+    align-items: center;
+    gap: var(--spacing-md, 8px);
+    align-self: stretch;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: var(--radius-md, 8px);
+    border: 1px solid #7A7A7A;
+    background: #0B0B0E;
+    max-width: 338px;
+    width: 100%;
+}
+
+
+.Subscribe {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background: #FF371A;
+    border: none;
+    margin-left: 16px;
+}
+
+
+.work {
+    display: flex;
+    align-items: first baseline;
+}
+
+
+.H_class {
+    max-width: 485px;
+    width: 100%;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.p_class {
+    max-width: 523px;
+    width: 100%;
+    color: #7A7A7A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 144.523%;
+}
+
+.zc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dolar_class {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.qq {
+    background: #191919;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+    max-width: 330px;
+    width: 100%;
+}
+
+
+.sp {
+    display: flex;
+    gap: 12px;
+}
+
+.al {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dolar_5 {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+}
+
